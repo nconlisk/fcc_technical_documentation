@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - FCC_technical_documentation</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Python Documentation</title>
+    <link rel="stylesheet" href="docstyle.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header id="nav-header">Python Documentation</header>
+        <ul>
+            <li><a class="nav-link" href="#introduction">Introduction</a></li>
+            <li><a class="nav-link" href="#installation">Installation</a></li>
+            <li><a class="nav-link" href="#first_programs">First programs</a></li>
+            <li><a class="nav-link" href="#next_steps">Next Steps</a></li>
+            <li><a class="nav-link" href="#reference">Reference</a></li>
+        </ul>
+    </nav>
+    <Main id="main-doc">
+
+        <section class="main-section" id="introduction">
+            <header id="doc-header">Introduction</header>
+            <p>Python is a powerful object-oriented programming language, comparable to other high level scripting
+                languages such as Perl, Ruby, or even
+                Java.
+                Some of Python's notable features:
+            <ul>
+                <li>Uses a syntax that is easy to read and write.</li>
+                <li>Comes with a large standard library covering most development needs.</li>
+                <li>Rapid testing and prototyping can be done with Python's interactive mode.</li>
+                <li>Can be easily extended by adding new modules implemented in languages such as C/C++.</li>
+                <li>Cross-platform support for all major operating systems.</li>
+            </ul>
+            </p>
+
+            <p>
+                Python code is governed by style rules (PEP). You can test, check, and improve your code online using
+                resources such as <a href="http://www.pythonchecker.com">Pythonchecker.com</a>.
+            </p>
+        </section></br>
+
+        <section class="main-section" id="installation">
+            <header id="doc-header">Installation</header>
+            <p>Before you start, you will need Python on your computer. You can use the command line window to check if
+                an up to date
+                version of Python is already installed on your system. If you see a response from a Python interpreter
+                it will include a version number in its initial display. Generally any Python 3.x version will do.
+                If python starts a Python 2.x interpreter, try entering python3 and see if an up to date version is
+                already
+                installed, otherwise it may be necessary to download the latest version from the Python repository.</p>
+
+            <p>If no install is detected on your system, you need to install Python by naivgating to the download
+                section of <a href="https://www.python.org/downloads/">python.org</a>. Installers exist for all major
+                operating
+                systems. Select the one most appropriate for your system.</p>
+        </section></br>
+        <section class="main-section" id="first_programs">
+            <header id="doc-header">First programs</header>
+            <p>Writing your first program may seem daunting, however, Python makes this a breeze. Fire up your Python
+                interpreter and
+                type in the below code:
+                <code>
+                  >>>print("Hello World")</br>
+                    Hello World
+                </code>
+                Then press return to execute the command.
+            </p>
+            <p>
+                Running Python code from a script file:
+                While simple commands can be run from a terminal or within the interpreter, more complex programs may
+                include
+                several commands and variables. To conduct more advanced operations we can save a series of commands
+                into a Python
+                script file.</br>
+                We will now recreate the "Hello World" code in script form. On the menu of the python interpreter click
+                File > New File.
+                Now copy and paste the previous command into the new file window that has opened up:
+                <code>
+                  message = "Hello World"</br></br>
+                    print(message)
+</code></br>
+Save this file as hello_world.py. We can then press f5 or click the run button from the menu bar to execute the commands in this script. As before the interpreter will output:
+<code>
+  >>></br>
+                    Hello World
+</code></br>
+For more details of how to call the script file from the command line, please consult the Python documentation or one of the referenced guides <a href="#reference">below</a>.
+  </p>
+  <p>Another fun beginner feature of the Python language is the turtle library. This library is great for kids and beginners alike and lets you really visualise the code you are writing via a small turtle on the onscreen canvas. To get started with your turtle, type the following into the interperter:
+    <code>
+      import turtle</br>
+    s = turtle.getscreen()</br>
+    t = turtle.Turtle()</br>
+    t.shape("turtle")</br>
+</code>
+Now that you have a turtle on your screen, we need to move it somehow. Luckily, their are some handy build in functions we can use to get started:
+<code>
+  t.right(45)</br>
+ t.forward(150)</br>
+ t.left(60)</br>
+ t.backward(300)</br>
+</code>
+Try playing around with these and other commands to get a sense of what edits to your code can do.
+To learn more about the features and what can be done with the turtles library, please consult the turtles <a href="https://docs.python.org/3/library/turtle.html">documentation</a>.
+
+</p>
+
+            
+        </section></br>
+        <section class="main-section" id="next_steps">
+            <header id="doc-header">Next Steps</header>
+          <p>Now that Python is setup on your system and you have written your first program, there are a world of options with how you can proceed in your journey. If structured classes are your preferred method of learning, their are many on demand courses available from top universities and companies hosted on different platforms around the web (see Online courses below).</br>
+
+If you prefer a project based approach to learning then the links below (see Project Ideas) might help spark some inspiration.</p>
+            <p>Online Courses:</br>
+<ul>
+  <li>Top Python courses hosted by <a href="https://www.coursera.org/courses?query=python">coursera.org</a>.</li>
+  <li>Python courses on <a href="https://www.edx.org/learn/python">edX.org</a>.</li>
+  <li>Python courses on <a href="https://www.udacity.com/">Udacity.com</a>.</li>
+</ul>
+</p>
+          <p>Project Ideas: </br>
+<ol>
+<li>Step by step Python projects and much more hosted by the <a href="https://projects.raspberrypi.org/en/projects?software%5B%5D=python">Raspberry Pi Foundation</a>.</li>
+  <li>
+    A list of over 40 Python project ideas from beginners to advanced hosted by <a href="https://www.upgrad.com/blog/python-projects-ideas-topics-beginners/">Upgrad</a>.
+  </li>
+  <li>
+    A list of 15 projects from beginner to advanced hosted by <a href="https://hackr.io/blog/python-projects">hacker.io</a>.
+  </li>
+  
+  
+</ol></p>
+        </section></br>
+        <section class="main-section" id="reference">
+            <header id="doc-header">Reference</header>
+            <p>More indepth information can be found on the Python programming language using the offical documentation:
+                <a href="https://docs.python.org/3/">docs.python.org</a>.</br>
+                For a beginner friendly approach to the languange follow the link to the <a
+                    href="https://wiki.python.org/moin/BeginnersGuide">beginners guide</a>.
+            </p>
+        </section></br>
+
+    </Main>
+
+</body>
+
+</html>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

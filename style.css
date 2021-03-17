@@ -1,0 +1,103 @@
+html {
+  /* Setting a base font size of 10px give us easier rem calculations
+     Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+   */
+  font-size: 10px;
+  font-family: 'Open Sans', Arial, sans-serif;
+}
+
+body {
+  
+  max-width: 100%;
+  background-color: beige;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: justify;
+  color: black;
+  margin: auto;
+  
+}
+
+#navbar {
+  position: fixed;
+  min-width: 29rem;
+  top: 0rem;
+  left: 0rem;
+  width: calc(max-width/3);
+  height: 100%;
+  border-right: solid;
+  border-color: gray;
+  font-size: 2.25rem;
+
+}
+
+
+#navbar li{
+    list-style: none;
+  
+}
+
+#nav-header{
+    text-align: center;
+    font-size: 3rem;
+    padding: 0.5rem;
+    border-bottom: solid gray;
+}
+
+#navbar a{
+    text-decoration: none;
+  
+}
+
+#doc-header{
+    font-size: 2.5rem;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+code {
+display: block;
+text-align: left;
+position: relative;
+word-break: normal;
+word-wrap: normal;
+line-height: 1;
+background-color: #D3D3D3;
+padding: 1rem;
+margin: 1rem;
+border-radius: 0.25rem;
+}
+
+@media(max-width: 800px){
+  body {
+  
+  font-size: 1rem;
+  line-height: 1;
+  text-align: justify;
+  color: black;
+  margin: auto;
+  
+}
+  
+#nav-header{
+  
+    font-size: 2.5rem;
+    padding: 0.5rem;
+}
+
+  #navbar{
+        font-size: 1.75rem;
+  }
+
+
+#doc-header{
+    font-size: 1.5rem;
+}
+  
+  
+}
